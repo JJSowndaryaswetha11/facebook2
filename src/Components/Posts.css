@@ -1,0 +1,55 @@
+.posts{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0;
+}
+.stories{
+    width: 100%;
+    display: flex;
+}
+.stories_col{
+    width: 25%;
+
+}
+.stories_body{
+   
+    height: 250px;
+    padding: 0 10px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.stories_body img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.stories_body_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+
+    
+    
+   
+}
+.stories_body_overlay-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 4px solid #0dBcf1;
+}
+.stories_body_overlay-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+
+}

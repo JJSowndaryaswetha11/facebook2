@@ -1,0 +1,164 @@
+.chatbar{
+    width: 25%;
+    
+    top:100px;
+    right:0px;
+    overflow-y: scroll;
+
+}
+.chatbar_list{
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    cursor: pointer;
+
+}
+.chatbar_list_img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+
+}
+.chatbar_list_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chatbar_list_name{
+    margin-left: 10px;
+
+}
+.status{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    right: 0;
+    border: 1.4px solid #f0f2f5;
+
+}
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    background-color: white;
+    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
+    width: 330px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.chat_header{
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #f0f2f5;
+    
+        
+        
+      
+    
+
+}
+.chat_first{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.chat_header_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.chat_header_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.chat_header_name{
+    display: flex;
+    margin-left: 6px;
+    font-weight: 600;
+
+}
+.chat_second{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.chat_header_icons{
+    display: flex;
+    color: gray;
+    cursor: pointer;
+   
+}
+.chat_header_icon {
+    margin-right: 10px; 
+  }
+  .chat_header_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  width: 100%; 
+  }
+  .chat_header_name {
+    margin-right: 10px; 
+  }
+  .Chat_body{
+    padding: 14px;
+    font-size: 14px;
+    
+
+  }
+  .chat_left{
+    display: flex;
+    justify-content: flex-start ;
+  }
+  .chat_left p{
+    display: inline-block;
+    background: #f0f2f5;
+    padding: 7px;
+    color: #333;
+    border-radius: 6px;
+    margin-top: 6px;
+
+  }
+  .chat_right{
+    display: flex;
+    justify-content: flex-end ;
+  }
+  .chat_right p{
+    display: inline-block;
+    background: #0d8cf1;
+    padding: 7px;
+    color:white;
+    border-radius: 6px;
+    margin-top: 6px;
+    
+  }
+  .chat_footer{
+    position: fixed;
+    bottom: 0px;
+    width: 400px;
+  }
+  .chat_input{
+    width: 330px;
+   border: none;
+   background: #f0f2f5;
+   outline: none;
+   padding: 15px 13px;
+
+
+
+  }
+  
